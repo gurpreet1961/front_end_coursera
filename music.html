@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+
+    <div>
+        <a onclick="myAudioFunction('a');">
+            <img src="img/1.png" width="20%">
+        </a>
+
+        <a onclick="myAudioFunction('b');">
+            <img src="img/Sparrow-Free-PNG-Image.png" width="20%">
+        </a>
+    </div>
+    <script>
+        var aAudio = new Audio('SF-eagle-02.mp3');
+        var bAudio = new Audio('1.wav');
+
+        function myAudioFunction(letter) {
+            if (letter == 'a') {
+                aAudio.loop = true;
+                bAudio.loop = false;
+                aAudio.play();
+
+
+            } else if (letter == 'b') {
+                aAudio.loop = false;
+                bAudio.loop = true;
+                bAudio.play();
+            }
+        }
+    </script>
+</body>
+
+</html>
