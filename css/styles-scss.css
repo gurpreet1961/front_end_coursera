@@ -35,7 +35,7 @@ body {
 }
 
 .navbar-dark {
-    background-color: #010002;
+    background-color: #000000;
 }
 
 .tab-content {
@@ -66,6 +66,9 @@ body {
     bottom: 0px;
     z-index: 1;
 }
+
+
+/*# sourceMappingURL=styles.css.map */
 
 #modal_sign_in:hover,
 #modal_sign_up:hover {
